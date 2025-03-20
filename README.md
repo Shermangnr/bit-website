@@ -1,5 +1,5 @@
 # bit-0
-# Sitio web 
+# Proyecto de práctica - Desarrollo Web
 
 ## Descripción
 
