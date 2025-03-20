@@ -1,9 +1,12 @@
 # bit-0
-# Proyecto de práctica - Desarrollo Web
+# Acerca de mí - German Bermudez
+
 
 ## Descripción
 
-Este es un proyecto de práctica creado como parte de mi aprendizaje en **desarrollo web**. El objetivo principal es aplicar y reforzar conocimientos adquiridos, desarrollando una página web funcional y visualmente atractiva.
+¡Hola! 👋 Soy Germán Bermúdez, un apasionado del desarrollo web en constante aprendizaje. Actualmente, estoy enfocado en mejorar mis habilidades en frontend y crear experiencias visuales atractivas e interactivas.
+
+Me gusta enfrentar nuevos desafíos y aprender algo nuevo con cada proyecto. Este espacio refleja mi progreso y dedicación en el camino del desarrollo.
 
 ## Tecnologías usadas
 * **HTML 5** - _Estructura_
