@@ -7,36 +7,44 @@
     <link rel="shortcut icon" href="./assets/images/codificacion.png" type="image/x-icon">
 </head>
 <body>
+    <!-- Encabezado -->
     <header>
+        <!-- Menu de Navegación -->
         <nav>
             <div>
                 <a href="#acercaDeMi">Acerca de mi</a>
                 <a href="#misProyectos">Mis proyectos</a>
                 <a href="#imagenes">Imagenes</a>
-                <a href="#contacto">Contacto</a>
+                <a href="#peliculaFavorita">Pelicula favorita</a>
+                <a href="#cancionFavorita">Cancion favorita</a>
+                <a href="./views/contacto.html">Contacto</a>                
             </div>
         </nav>
     </header>
 
+    <!-- Contenido principal de la pagina -->
     <main>
         <h1>Germán Bermúdez</h1>
         
+        <!-- Sección acerca de mi -->
         <section id="acercaDeMi">
             <h2>Acerca de mi</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus placeat temporibus nobis rem at quibusdam iure in error eaque! Labore repudiandae eaque optio facilis aut quaerat sequi molestiae. Quas quo eligendi saepe consequuntur eaque illum nemo, velit illo, facilis dolor quae voluptates enim cum non a quod, autem tempore distinctio numquam repellat nulla! Voluptas laborum modi et quasi maxime? Maiores, tenetur molestias. Corrupti, aspernatur? Numquam beatae sequi aspernatur illum qui exercitationem dicta odit ullam nam vel expedita, fuga quibusdam explicabo perspiciatis, nostrum maxime sit nihil itaque dolorem dolor sed dolorum voluptatibus possimus. Nihil reprehenderit ex velit sunt eligendi recusandae quisquam distinctio labore, quaerat nobis autem consequuntur modi! Vitae temporibus ut distinctio error facere exercitationem aspernatur modi, veniam suscipit sed fuga eos officiis ratione laboriosam consequuntur, consectetur, vero doloribus molestias quam ducimus culpa blanditiis explicabo incidunt harum? Aspernatur quisquam animi maiores ratione odio corrupti dolorem, officia quae iure amet explicabo labore, minus accusantium porro, temporibus ab necessitatibus magni? Nemo rem odio eos earum dolore tempora perspiciatis sequi fuga aut temporibus corporis iusto, voluptatem numquam quod, tenetur iure doloribus alias! Magni, quis in neque nostrum odit obcaecati nisi reiciendis mollitia aliquam eos id numquam nam velit eum dolor possimus fugit voluptatum?</p>
         </section>
 
+        <!-- Sección Mis proyectos -->
         <section id="misProyectos">
             <h2>Mis Proyectos</h2>
             <ul>
-                <li>Proyecto #1</li>
-                <li>Proyecto #2</li>
-                <li>Proyecto #3</li>
-                <li>Poryecto #4</li>
-                <li>Proyecto #5</li>
+                <li><a href="#">Proyecto #1</a></li>
+                <li><a href="#">Proyecto #3</a></li>
+                <li><a href="#">Poryecto #4</a></li>
+                <li><a href="#">Proyecto #2</a></li>
+                <li><a href="#">Proyecto #5</a></li>
             </ul>
         </section>
 
+        <!-- Sección de imagenes -->
         <section id="imagenes">
             <h2>Imagenes</h2>
             <img style="width: 200px;" src="https://images.pexels.com/photos/5483071/pexels-photo-5483071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Manos en un computador codificando">
@@ -44,16 +52,57 @@
             <img style="width: 200px;" src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Computador con codigo en VsCode">
         </section>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <ul>
-                <li><b>Telefono: </b><a href="#">313 4180071</a></li>
-                <li><b>Correo: </b><a href="">shermangnr@gmail.com</a></li>
-                <li><b>Linkedin: </b><a href="">linkedin.com/german-bermudez/</a></li>
-            </ul>
+        <!-- Seccion Pelicula favorita -->
+        <section id="peliculaFavorita">
+            <h2>MI pelicula favorita</h2>
+            <h3>Avengers: End Game</h3>
+            <p>Avengers: Endgame se desarrolla después de que Thanos eliminara a la mitad del universo usando las gemas del infinito. Los Vengadores restantes se enfrentan a Thanos, el villano más poderoso del universo.</p>
+            <video src="./assets/videos/endgame.mp4" controls width="500px"></video>
+        </section>
+
+        <!-- Seccion canción favorita -->
+        <section id="cancionFavorita">
+            <h2>Mi canción favorita</h2>
+            <h3>Avenged Sevenfold - Critical Acclaim</h3>
+            <p>La canción 'Critical Acclaim' de Avenged Sevenfold es un potente manifiesto contra la hipocresía y la arrogancia en la sociedad contemporánea. La banda, conocida por su estilo musical que combina elementos del heavy metal, metalcore y hard rock, utiliza esta canción para expresar su descontento con aquellos que critican sin contribuir positivamente a la sociedad.</p>
+            <audio src="./assets/audios/criticalAcclaim.mp3" controls></audio>
+        </section>
+
+        <!-- Seccion Referencias personales -->
+        <section id="tablaReferencias">
+            <h2>Referencias personales</h2>
+            <p>Estas son mis referencias personales, compañeros de trabajo que pueden dar testimonio de mis trabajo y mi trayectoria profesional.</p>
+            <!-- Tabla de referencias personales -->
+            <table>
+                <caption>Referencias de contacto</caption>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Número</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Perez</td>
+                        <td>juan.perez@gmail.com</td>
+                        <td>3112225555</td>
+                    </tr>
+                    <tr>
+                        <td>Maria Lopez</td>
+                        <td>maria.perez@gmail.com</td>
+                        <td>3215556666</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
         </section>
     </main>
-
+    <br>
+    <br>
+    <br>
     <footer>
         &copy; Todos los derechos reservados - <i>German Bermudez</i>
     </footer>
