@@ -1,5 +1,70 @@
 div {
     border: 2px solid blue;
     padding: 20px;
-    margin: 20px;
+    margin: 20px 10px;
 }
+
+/* Colores de texto */
+.colores-nombre {
+    color: chocolate;
+}
+
+.color-rgb {
+    color: rgb(0, 150, 96);
+}
+
+.color-rgba {
+    color: rgb(45, 66, 95, 0.4); 
+}
+
+.color-hsl {
+    color: hsl(320, 23%, 45%);
+}
+
+.color-hexadecimal {
+    color: #45D4F6;
+}
+
+/* Colores de fondo */
+.caja {
+    border: 2px solid black;
+}
+.bg-colores-nombre {
+    background: chocolate;
+}
+
+.bg-color-rgb {
+    background: rgb(0, 150, 96);
+}
+
+.bg-color-rgba {
+    background: rgb(45, 66, 95, 0.4);
+}
+
+.bg-color-hsl {
+    background: hsl(320, 23%, 45%);
+}
+
+.bg-color-hexadecimal {
+    background: #45D4F6;
+}
+
+/* Fuentes para los textos */
+.texto-1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.texto-2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
