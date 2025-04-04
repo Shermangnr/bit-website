@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(46, 46, 46);
+}
+
 div {
     border: 2px solid blue;
     padding: 20px;
@@ -67,4 +71,67 @@ div {
     text-align: right;
     text-transform: uppercase;
 }
+
+/* Bordes estilos */
+.caja-1 {
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    border-width: 5px;    
+}
+
+.b-solido {
+    border-style: solid;
+    border-radius: 50%;
+}
+.b-dashed {
+    border-style: dashed;
+    border-radius: 20px;
+}
+.b-dotted {
+    border-style: dotted;
+    border-radius: 20px 50px;
+}
+.b-double {
+    border-style: double;
+    border-radius: 50% 10% 30% 10%;
+}
+.b-groove {
+    border-style: groove;
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+}
+
+/* Tipos de background */
+.caja-2 {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.bg-color {
+    background-color: yellowgreen;
+}
+
+.bg-degrade-linear {
+    background-image: linear-gradient(green, yellow);
+}
+
+.bg-degrade-radial {
+    background-image: radial-gradient(blue, violet);
+}
+.bg-degrade-conic {
+    background-image: conic-gradient(red, black);
+}
+
+.bg-img-large {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBrlWYx1AV9EM_fvhWl_v_uPCoBFqmDRtseA&s);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+
+
+
 
