@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    border: 2px solid black;
+    width: 1024px;
+    height: 512px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, nav, main, aside, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main, aside {
+    height: 350px;
+}
+
+header, nav, footer {
+    width: 100%;
+}
+
+header {
+    border: 2px solid green;
+    height: 100px;
+}
+
+nav {
+    border: 2px solid orangered;
+    height: 50px;
+}
+
+main {
+    border: 2px solid blue;
+    width: 75%;
+}
+
+aside {
+    border: 2px solid red;
+    width: 25%;
+}
+
+footer {
+    border: 2px solid brown;
+    height: 30px;
+}
