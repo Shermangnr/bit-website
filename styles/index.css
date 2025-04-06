@@ -36,11 +36,11 @@ h2 {
 }
 
 h3 {
-    
+    font-size: 1.5em;
 }
 
-p, a {
-    font-size: 1.2em;
+.tamano-texto {
+    font-size: 18px;
 }
 
 .contenedor-1 {
@@ -123,7 +123,10 @@ p, a {
     color: grey;
 }
 
-#acercaDeMi {
+#acercaDeMi,
+.encontrar,
+.informacion-basica,
+.aspectos-profesionales {
     /* border: 2px solid black; */
     margin-top: 15px;
     display: flex;
@@ -156,4 +159,22 @@ p, a {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+::marker {
+    color: #1FC1A2;
+}
+
+.cont1-informacion-basica,
+.cont2-aspectos-profesionales {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+}
+
+.margen-inf-b {
+    margin-top: 0;
+    margin-bottom: 5px;
 }
