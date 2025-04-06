@@ -2,12 +2,158 @@
     box-sizing: border-box;
 }
 
+.texto-blanco {
+    color: whitesmoke;
+}
+
+.decoracion-icono {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.decoracion-icono:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+
 html, body {
     height: 100%;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
 }
 
 body {
-    margin: 0;
+    margin: 10px 30px;
     display: flex;
     flex-direction: column;
+    background-color: #504d4d;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    
+}
+
+p, a {
+    font-size: 1.2em;
+}
+
+.contenedor-1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(0 0 0 / 90%), rgb(0 0 0 / 50%)), url(../assets/images/bg-header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.sub-contenedor-1 {
+    background: linear-gradient(to bottom, rgba(88, 88, 88, 0), rgba(73, 73, 73, 0.5), rgba(73, 73, 73));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 0 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 420px;
+    border-radius: 30% 30% 10px 10px;    
+    
+}
+
+.foto-perfil {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 10px #1FC1A2;
+    border-style: groove;
+    align-items: center;    
+}
+
+.german-bermudez {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+.desarrollador {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.redes-sociales {
+    display: flex;    
+    gap: 20px;
+}
+
+.menu-navegacion {
+    display: flex;
+    
+}
+
+.contenedor-opciones {
+    margin-top: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.1); /* Borde blanco semitransparente */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(54, 51, 51, 0.6); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.opciones {
+    text-decoration: none;    
+}
+
+.opciones:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+#acercaDeMi {
+    /* border: 2px solid black; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: #363333; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contenedor-info{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.icono-info {
+    width: 100%;
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.acerca-de-mi {
+    margin: 15px;
+}
+
+.descripcion-propia {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
