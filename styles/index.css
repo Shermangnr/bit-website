@@ -92,6 +92,8 @@ h3 {
 .redes-sociales {
     display: flex;    
     gap: 20px;
+    font-size: 18px;
+    justify-content: center;
 }
 
 .menu-navegacion {
@@ -111,7 +113,7 @@ h3 {
     height: 50px;
     background-color: rgba(54, 51, 51, 0.6); /* Fondo semitransparente */
     backdrop-filter: blur(10px); /* Efecto de desenfoque */
-    border-radius: 10px; /* Borde redondeado */
+    border-radius: 10px; /* Borde redondeado */  
 }
 
 .opciones {
@@ -126,7 +128,9 @@ h3 {
 #acercaDeMi,
 .encontrar,
 .informacion-basica,
-.aspectos-profesionales {
+.aspectos-profesionales,
+.rasgos-personalidad,
+.informacion-adicional {
     /* border: 2px solid black; */
     margin-top: 15px;
     display: flex;
@@ -163,10 +167,14 @@ h3 {
 
 ::marker {
     color: #1FC1A2;
+    display: flex;
+    align-items: center;
 }
 
 .cont1-informacion-basica,
-.cont2-aspectos-profesionales {
+.cont2-aspectos-profesionales,
+.cont3-rasgos-personalidad,
+.cont4-informacion-adicional {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -177,4 +185,42 @@ h3 {
 .margen-inf-b {
     margin-top: 0;
     margin-bottom: 5px;
+}
+
+.contenedor-fotos,
+.cont-canciones,
+.cont-peliculas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.futbol,
+.cheer {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #373333;
+    border: groove 10px;
+    transition: transform 0.3s ease;
+}
+
+.futbol:hover,
+.cheer:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(54, 51, 51, 0.6);
+    text-align: center;
+    position: sticky;
 }
