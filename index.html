@@ -36,14 +36,13 @@
             <div class="contenedor-opciones">
                 <a href="#header" class="opciones texto-blanco tamano-texto">Inicio</a>
                 <a href="#acercaDeMi" class="opciones texto-blanco tamano-texto">Acerca de mi</a>
-                <a href="./views/proyectos.html" class="opciones texto-blanco tamano-texto">Mis proyectos</a>
-                <a href="#peliculaFavorita" class="opciones texto-blanco tamano-texto">Pelicula favorita</a>
-                <a href="#cancionFavorita" class="opciones texto-blanco tamano-texto">Cancion favorita</a>
-                <a href="#imagenes" class="opciones texto-blanco tamano-texto">Referencias</a>
+                <a href="./views/proyectos.html" class="opciones texto-blanco tamano-texto">Mis proyectos</a>                
+                <a href="./views/referencias.html" class="opciones texto-blanco tamano-texto">Referencias</a>
                 <a href="./views/contacto.html" class="opciones texto-blanco tamano-texto">Contacto</a>                
             </div>
         </nav>
     </header>
+    <!-- Fin del encabezado -->
 
     <!-- Contenido principal de la pagina -->
     <main>
@@ -57,7 +56,7 @@
                 <h2 class="acerca-de-mi texto-blanco">Acerca de mi</h2>
             </div>
             <div class="contenedor-info">
-                <p class="descripcion-propia texto-blanco tamano-texto"><span style="color: #1FC1A2;">¡Hola Bienvenido a mi Website!</span> Soy Germán Bermúdez, aunque mis amigos y las personas más allegadas a mi me llaman <b>Sherman</b>, soy un Bogotano de 29 años con una pasión por el mundo digital. Como tecnólogo en Análisis y Desarrollo de Software, estoy en constante aprendizaje, actualmente inmerso en un bootcamp de desarrollo web fullstack. Mi objetivo profesional es convertirme en ingeniero de software, con especialización en gerencia de proyectos. Me considero una persona curiosa, detallista y fiel, cualidades que aplico tanto en mi vida profesional como personal. Fuera del mundo de la tecnología, me apasiona el deporte, especialmente el fútbol y el cheerleading, donde he tenido la oportunidad de participar en competencias a nivel nacional e internacional.</p>
+                <p class="descripcion-propia texto-blanco tamano-texto"><span style="color: #1FC1A2;">¡Hola Bienvenido a mi Website!</span> Soy Germán Bermúdez, aunque mis amigos y las personas más allegadas a mi me llaman <b>"Sherman"</b>, soy un Bogotano de 29 años con una pasión por el mundo digital. Como tecnólogo en Análisis y Desarrollo de Software, estoy en constante aprendizaje, actualmente inmerso en un bootcamp de desarrollo web fullstack. Mi objetivo profesional es convertirme en ingeniero de software, con especialización en gerencia de proyectos. Me considero una persona curiosa, detallista y fiel, cualidades que aplico tanto en mi vida profesional como personal. Fuera del mundo de la tecnología, me apasiona el deporte, especialmente el fútbol y el cheerleading, donde he tenido la oportunidad de participar en competencias a nivel nacional e internacional.</p>
             </div>
         </section>
 
@@ -68,8 +67,8 @@
             <ul style="list-style-type: '✓  '; margin-top: 0; margin-bottom: 5px;" class="tamano-texto">
                 <li><a href="#informacionBasica" class="opciones texto-blanco tamano-texto">Información básica</a></li>
                 <li><a href="#aspectosProfesionales" class="opciones texto-blanco tamano-texto">Aspectos profesionales</a></li>
-                <li><a href="#" class="opciones texto-blanco tamano-texto">Rasgos de personalidad</a></li>
-                <li><a href="#" class="opciones texto-blanco tamano-texto">Información adicional</a></li>
+                <li><a href="#rasgosPersonalidad" class="opciones texto-blanco tamano-texto">Rasgos de personalidad</a></li>
+                <li><a href="#informacionAdicional" class="opciones texto-blanco tamano-texto">Información adicional</a></li>
             </ul>
         </section>
         <br>
@@ -112,77 +111,89 @@
                     <li style="list-style: none;" class="texto-blanco"><b>-</b> Manejo de herramientas ofimáticas como Microsoft Excel y Word.</li>
                 </ul>
             </div>
-
+            <p class="margen-inf-b texto-blanco tamano-texto"><b>Habilidades técnicas:</b></p>
+            <ul>
+                <li class="texto-blanco tamano-texto">Lenguajes de programacion PHP, Java, JavaScript</li>
+                <li class="texto-blanco tamano-texto">Lenguajes de marcado HTML5, Css3, Markdown</li>
+                <li class="texto-blanco tamano-texto">Uso de librerias para aplicar estilos como Bootstrap 5</li>
+                <li class="texto-blanco tamano-texto">Manejo de bases de datos SQL y NoSQL</li>
+                <li class="texto-blanco tamano-texto">Herramientas de versionamiento Git GitHub</li>
+                <li class="texto-blanco tamano-texto">Uso de herramientas para la administración de BD <i>MySQL Workbench / Navicat</i></li>
+                <li class="texto-blanco tamano-texto">Experiencia en patrones de diseño como MVC (Modelo-Vista-Controlador)</li>
+                <li class="texto-blanco tamano-texto">Conocimiento en herramientas ofimaticas</li>
+            </ul>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- Seccion Pelicula favorita -->
-        <section id="peliculaFavorita">
-            <h2>MI pelicula favorita</h2>
-            <h3>Avengers: End Game</h3>
-            <p>Avengers: Endgame se desarrolla después de que Thanos eliminara a la mitad del universo usando las gemas del infinito. Los Vengadores restantes se enfrentan a Thanos, el villano más poderoso del universo.</p>
-            <video src="./assets/videos/endgame.mp4" controls width="500px"></video>
+        <br>
+        <hr>
+        <!-- Seccion de Rasgos de personalidad -->
+        <section id="rasgosPersonalidad" class="rasgos-personalidad">
+            <div class="cont3-rasgos-personalidad">
+                <img src="./assets/icons/personalidad.png" style="width: 25px; height: 25px;" alt="Icono de personalidad">
+                <h3 class="texto-blanco">Rasgos de Personalidad</h3>
+            </div>
+            <p class="texto-blanco tamano-texto margen-inf-b" style="text-align: justify;">
+                Me considero una persona muy curiosa que le gusta indagar acerca de todo lo que pasa a su alrededor, realizando investigaciones por mi propia cuenta, me gusta tener conocimiento de muchas cosas porque considero que en esta vida debemos saber de todo un poco. Soy un apasionado por todo lo que hace y por todo lo que se propone, no me gusta rendirme a pesar de que las circunstancias sean las mas adversas, siempre trato de llegar hasta el final. Soy una persona muy comprometida tanto personalmente como profesionalmente, me gustan los retos porque de esa manera adquiero mas experiencia y mas conocimientos.
+                No me gustan las personas que son mentirosas, ni tampoco las personas que son asolapadas. Me gusta que las personas confien en lo que hago y confien en mi para contarme las cosas.
+            </p>
+            <p class="tamano-texto texto-blanco margen-inf-b" style="text-align: justify;">En general considero que soy una persona fiel en todo el sentido de la palabra, soy más del tipo de persona que puede entregar todo porque los demás se sientan bien y felices. Me gusta salir a compartir con mis amigos jugando juegos de mesa y también sentarnos a hablar de todo un poco.</p>
         </section>
-
-        <!-- Seccion canción favorita -->
-        <section id="cancionFavorita">
-            <h2>Mi canción favorita</h2>
-            <h3>Avenged Sevenfold - Critical Acclaim</h3>
-            <p>La canción 'Critical Acclaim' de Avenged Sevenfold es un potente manifiesto contra la hipocresía y la arrogancia en la sociedad contemporánea. La banda, conocida por su estilo musical que combina elementos del heavy metal, metalcore y hard rock, utiliza esta canción para expresar su descontento con aquellos que critican sin contribuir positivamente a la sociedad.</p>
-            <audio src="./assets/audios/criticalAcclaim.mp3" controls></audio>
+        <br>
+        <hr>
+        <!-- Seccion información adicional -->
+        <section id="informacionAdicional" class="informacion-adicional">
+            <div class="cont4-informacion-adicional">
+                <img src="./assets/icons/adicional.png" style="width: 25px; height: 25px;" alt="">
+                <h3 class="texto-blanco">Información Adicional</h3>
+            </div>
+            <p class="tamano-texto texto-blanco">Como información adiconal puedo contarte que me gusta mucho hacer deporte, me gusta mucho estar en constante movimiento, los dos deportes que mas practico actualmente son el <b>Futbol</b> y <b>Cheerleading</b>, donde he participado en una competencia a nivel internacional en Puerto Vallarta - México.</p>
+            <div class="contenedor-fotos">
+                <div>
+                    <img src="./assets/images/jugador-futbol.jpg" class="futbol" alt="Hombre jugando futbol">
+                    <figcaption class="texto-blanco">Jugando Futbol con mis amigos</figcaption>
+                </div>
+                <div>
+                    <img src="./assets/images/equipo-cheer.JPG" class="cheer" alt="Equipo de porras Victory Fenix">
+                    <figcaption class="texto-blanco">Equipo Victory Fenix / <i>Cartagena - Colombia</i></figcaption>
+                </div>
+            </div>
+            <br>
+            <p class="texto-blanco tamano-texto">Me gusta escuchar casi toda la musica, pero mi gusto musical favorito es el Rock y sus derivados.</p>
+            <p class="texto-blanco tamano-texto">Top 5 de mis canciones favoritas:</p>
+            <div class="cont-canciones">
+                <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4VymMhILk4DSwghPkLUPVS?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7ritPWOWvsthxFDxOz1OjH?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0G21yYKMZoHa30cYVi1iA8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6wqJeItl3Vc3az4ZicSQAB?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3RgDvs9Jpvn3kUuaTek1R5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            </div>
+            <br>
+            <p class="texto-blanco tamano-texto">Las peliculas de ciencia ficción son mis favoritas como todas las de &copy; Marvel, aunque tambien me gustan las peliculas de accion y comedia.</p>
+            <p class="texto-blanco tamano-texto">Top 5 de mis peliculas favoritas</p>
+            <div class="cont-peliculas">
+                <div><iframe width="100%" height="315" style="border-radius:12px" src="https://www.youtube.com/embed/t06RUxPbp_c?si=PrEar0ICdQD_8g_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div><iframe width="100%" height="315" style="border-radius:12px" src="https://www.youtube.com/embed/znk2OICHbjY?si=ZyyJq8iTsmb9QyzG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div><iframe width="100%" height="315" style="border-radius:12px" src="https://www.youtube.com/embed/XoDmKCZBeeI?si=BBvgiYLsksQSt5Au" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div><iframe width="100%" height="315" style="border-radius:12px" src="https://www.youtube.com/embed/aeVkbNka9HM?si=iXBU3zMzOwGod924" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div><iframe width="100%" height="315" style="border-radius:12px" src="https://www.youtube.com/embed/-oJHZre7XZY?si=X_4InQ8MygDYHxbK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            </div>
         </section>
-
-        <!-- Seccion Referencias personales -->
-        <section id="tablaReferencias">
-            <h2>Referencias personales</h2>
-            <p>Estas son mis referencias personales, compañeros de trabajo que pueden dar testimonio de mis trabajo y mi trayectoria profesional.</p>
-            <!-- Tabla de referencias personales -->
-            <table style="border: 2px solid black;">
-                <caption>Referencias de contacto</caption>
-                <thead style="border: 2px solid black;">
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Correo</th>
-                        <th>Número</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Juan Perez</td>
-                        <td>juan.perez@gmail.com</td>
-                        <td>3112225555</td>
-                    </tr>
-                    <tr>
-                        <td>Maria Lopez</td>
-                        <td>maria.perez@gmail.com</td>
-                        <td>3215556666</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-
-                </tfoot>
-            </table>
-        </section>
+        <hr>
     </main>
+    <!-- Fin del contenido principal -->
     <br>
     <br>
     <br>
     <footer>
-        &copy; Todos los derechos reservados - <i>German Bermudez</i>
+        <p class="texto-blanco margen-inf-b">Mi portafolio - Website</p>
+        <p class="texto-blanco margen-inf-b">&copy; Todos los derechos reservados - <i>German Bermudez</i></p>
+        <p class="texto-blanco margen-inf-b">Politicas de privacidad - Aviso legal</p>
+        <div class="redes-sociales">
+            <a href="https://www.linkedin.com/in/german-bermudez/" target="_blank" class="decoracion-icono"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="decoracion-icono"><i class="bi bi-facebook"></i></a>
+            <a href="https://web.whatsapp.com/" class="decoracion-icono"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.instagram.com/" class="decoracion-icono"><i class="bi bi-instagram"></i></a>
+            <a href="https://github.com/Shermangnr" target="_blank" class="decoracion-icono"><i class="bi bi-github"></i></a>
+        </div>
     </footer>
 
 </body>
