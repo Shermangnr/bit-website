@@ -2,10 +2,77 @@
     box-sizing: border-box;
 }
 
+/* Estilos para etiquetas generales */
+
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+/* Estilos para el body */
+body {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #504d4d;
+}
+
+/* Estilos para los Subtitulos */
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Estilos para el pide de pagina */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(54, 51, 51, 0.6);
+    text-align: center;
+    position: sticky;
+}
+
+/* Estilos para las viñetas de las listas */
+::marker {
+    color: #1FC1A2;
+    display: flex;
+    align-items: center;
+}
+
+/* Color de texto para todo el documento */
 .texto-blanco {
     color: whitesmoke;
 }
 
+/* Tamaño del texto en general */
+.tamano-texto {
+    font-size: 18px;
+}
+
+/* Quitar el subrayado a los enlaces de la etiqueta <a>  / Sombra para las opciones*/
+.texto-nosubrayado {
+    text-decoration: none;    
+}
+
+.texto-nosubrayado:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+/* Margen de separación para los parrafos */
+.margen-inf-p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los iconos de las redes sociales */
 .decoracion-icono {
     text-decoration: none;
     color: white;
@@ -17,32 +84,7 @@
     color: grey;
 }
 
-
-html, body {
-    height: 100%;
-    box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
-}
-
-body {
-    margin: 10px 30px;
-    display: flex;
-    flex-direction: column;
-    background-color: #504d4d;
-}
-
-h2 {
-    font-size: 2em;
-}
-
-h3 {
-    font-size: 1.5em;
-}
-
-.tamano-texto {
-    font-size: 18px;
-}
-
+/* Estilos para el contenedor que esta dentro del Header */
 .contenedor-1 {
     display: flex;
     flex-direction: column;
@@ -56,6 +98,7 @@ h3 {
     background-position: top;
 }
 
+/* Estilos para el subcontenedor del Header */
 .sub-contenedor-1 {
     background: linear-gradient(to bottom, rgba(88, 88, 88, 0), rgba(73, 73, 73, 0.5), rgba(73, 73, 73));
     display: flex;
@@ -69,6 +112,7 @@ h3 {
     
 }
 
+/* Estilos para la foto de perfil */
 .foto-perfil {
     width: 270px;
     height: 270px;
@@ -78,17 +122,20 @@ h3 {
     align-items: center;    
 }
 
+/* Estilo para el titulo H1 (German Bermudez) */
 .german-bermudez {
     margin-top: 15px;
     margin-bottom: 5px;
     font-size: 2.5em;
 }
 
+/* Estilo para la profesion (Desarrollador de Software ...) */
 .desarrollador {
     margin-top: 0;
     margin-bottom: 5px;
 }
 
+/* Estilo de Ubicación para el contenedor de las redes sociales */
 .redes-sociales {
     display: flex;    
     gap: 20px;
@@ -96,11 +143,13 @@ h3 {
     justify-content: center;
 }
 
+/* Clase para el nav Menu de navegación */
 .menu-navegacion {
     display: flex;
     
 }
 
+/* Estilos para el contenedor que esta dentro del NAV (Opciones del menu de navegación) */
 .contenedor-opciones {
     margin-top: 5px;
     border: 2px solid rgba(255, 255, 255, 0.1); /* Borde blanco semitransparente */
@@ -116,15 +165,9 @@ h3 {
     border-radius: 10px; /* Borde redondeado */  
 }
 
-.opciones {
-    text-decoration: none;    
-}
-
-.opciones:hover {
-    text-decoration: none;
-    color: grey;
-}
-
+/* ______________________________________________________________________________________ */
+/* Inicio Seccion Acerca de mi */
+/* Estilos Generales para las secciones despues del Nav  */
 #acercaDeMi,
 .encontrar,
 .informacion-basica,
@@ -141,11 +184,19 @@ h3 {
     padding-right: 40px;
 }
 
+/* Estilo general para los contenedores que van despues del navbar */
 .contenedor-info{
     justify-content: center;
     display: flex;
     flex-direction: row;
 }
+
+/* Margen para separar el contenedor del icono */
+.acerca-de-mi {
+    margin: 15px;
+}
+
+/* Estilo para el Icono inicial de la seccion Acerca de mi */
 .icono-info {
     width: 100%;
     display: flex;
@@ -155,22 +206,14 @@ h3 {
     margin-top: 5px;
 }
 
-.acerca-de-mi {
-    margin: 15px;
-}
-
+/* Alineación para el contenedor de la auto-descripcion */
 .descripcion-propia {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-::marker {
-    color: #1FC1A2;
-    display: flex;
-    align-items: center;
-}
-
+/* Alineación general para los contenedores de las secciones mencionadas */
 .cont1-informacion-basica,
 .cont2-aspectos-profesionales,
 .cont3-rasgos-personalidad,
@@ -182,11 +225,7 @@ h3 {
     margin: 0;
 }
 
-.margen-inf-b {
-    margin-top: 0;
-    margin-bottom: 5px;
-}
-
+/* Estilos generales para los contenedors multimedias */
 .contenedor-fotos,
 .cont-canciones,
 .cont-peliculas {
@@ -196,10 +235,12 @@ h3 {
     justify-content: space-around;
 }
 
+/* Alineacion para el figcaption de las imagenes */
 figcaption {
     text-align: center;
 }
 
+/* Estilos para las imagenes de Futbol & Cheer */
 .futbol,
 .cheer {
     width: 500px;
@@ -212,15 +253,4 @@ figcaption {
 .futbol:hover,
 .cheer:hover {
     transform: scale(1.1);
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    padding: 30px;
-    background-color: rgba(54, 51, 51, 0.6);
-    text-align: center;
-    position: sticky;
 }
