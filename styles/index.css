@@ -1,9 +1,15 @@
+/* Variables para colores */
+:root {
+    --color-verdeclaro: #1FC1A2;
+    --color-blanco: whitesmoke;
+    --color-sombra: #373333;
+}
+
 * {
     box-sizing: border-box;
 }
 
 /* Estilos para etiquetas generales */
-
 html, body {
     height: 100%;
     box-sizing: border-box;
@@ -33,7 +39,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding: 30px;
+    padding: 25px;
     background-color: rgba(54, 51, 51, 0.6);
     text-align: center;
     position: sticky;
@@ -41,14 +47,14 @@ footer {
 
 /* Estilos para las viñetas de las listas */
 ::marker {
-    color: #1FC1A2;
+    color: var(--color-verdeclaro);
     display: flex;
     align-items: center;
 }
 
 /* Color de texto para todo el documento */
 .texto-blanco {
-    color: whitesmoke;
+    color: var(--color-blanco);
 }
 
 /* Tamaño del texto en general */
@@ -117,7 +123,7 @@ footer {
     width: 270px;
     height: 270px;
     border-radius: 50%;
-    border: 10px #1FC1A2;
+    border: 10px var(--color-verdeclaro);
     border-style: groove;
     align-items: center;    
 }
@@ -173,13 +179,11 @@ footer {
 .informacion-basica,
 .aspectos-profesionales,
 .rasgos-personalidad,
-.informacion-adicional {
-    /* border: 2px solid black; */
+.informacion-adicional {    
     margin-top: 15px;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    /* background-color: #363333; */
+    width: 100%;    
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -245,7 +249,7 @@ figcaption {
 .cheer {
     width: 500px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #373333;
+    box-shadow: 10px 10px 5px var(--color-sombra);
     border: groove 10px;
     transition: transform 0.3s ease;
 }
