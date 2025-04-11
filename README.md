@@ -21,3 +21,4 @@ Me gusta enfrentar nuevos desafíos y aprender algo nuevo con cada proyecto. Est
 
 # Autor
 _Germán Bermúdez_ (19/03/2025)
+<!-- Incluir enlaces de contacto -->
