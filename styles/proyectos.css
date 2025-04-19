@@ -172,7 +172,7 @@ footer {
 }
 
 /* ______________________________________________________________________________________ */
-/* Inicio Seccion Acerca de mi */
+/* Inicio Seccion Mis Proyectos */
 /* Estilos Generales para las secciones despues del Nav  */
 #misProyectos,
 .proyecto1,
@@ -207,7 +207,7 @@ footer {
     margin-top: 5px;
 }
 
-/* Alineación para el contenedor de la auto-descripcion */
+/* Alineación para el contenedor de los proyectos */
 .descripcion-proyectos {
     text-align: center;
     margin-top: 10px;
