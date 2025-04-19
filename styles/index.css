@@ -161,7 +161,7 @@ footer {
     border: 2px solid rgba(255, 255, 255, 0.1); /* Borde blanco semitransparente */
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 70px;
     justify-content: center;
     align-content: center;
     width: 100%;
