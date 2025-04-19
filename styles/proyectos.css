@@ -161,7 +161,7 @@ footer {
     border: 2px solid rgba(255, 255, 255, 0.1); /* Borde blanco semitransparente */
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 70px;
     justify-content: center;
     align-content: center;
     width: 100%;
@@ -175,11 +175,8 @@ footer {
 /* Inicio Seccion Acerca de mi */
 /* Estilos Generales para las secciones despues del Nav  */
 #misProyectos,
-.encontrar,
-.informacion-basica,
-.aspectos-profesionales,
-.rasgos-personalidad,
-.informacion-adicional {    
+.proyecto1,
+.proyecto2 {    
     margin-top: 15px;
     display: flex;
     flex-direction: column;
@@ -196,7 +193,7 @@ footer {
 }
 
 /* Margen para separar el contenedor del icono */
-.acerca-de-mi {
+.proyectos {
     margin: 15px;
 }
 
@@ -211,8 +208,47 @@ footer {
 }
 
 /* Alineación para el contenedor de la auto-descripcion */
-.descripcion-propia {
+.descripcion-proyectos {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.cont-prisma,
+.cont-ferreteria {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+}
+
+.cont-desc-proy1,
+.cont-desc-proy2 {
+    width: 40%; 
+    height: auto;
+    padding: 10px; 
+    text-align: start;
+    
+}
+
+.cont-capturas {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px; 
+    gap: 30px;
+
+}
+
+.estilo-capturas {
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.5);
+    transition: transform 1s ease;
+}
+
+.estilo-capturas:hover {
+    transform: scale(1.6);
 }
