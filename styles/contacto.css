@@ -1,0 +1,266 @@
+/* Variables para colores */
+:root {
+    --color-verdeclaro: #1FC1A2;
+    --color-blanco: whitesmoke;
+    --color-sombra: #373333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos para etiquetas generales */
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+/* Estilos para el body */
+body {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #504d4d;
+}
+
+/* Estilos para los Subtitulos */
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Estilos para el pide de pagina */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 25px;
+    background-color: rgba(54, 51, 51, 0.6);
+    text-align: center;
+    position: sticky;
+}
+
+/* Estilos para las viñetas de las listas */
+::marker {
+    color: var(--color-verdeclaro);
+    display: flex;
+    align-items: center;
+}
+
+/* Color de texto para todo el documento */
+.texto-blanco {
+    color: var(--color-blanco);
+}
+
+/* Tamaño del texto en general */
+.tamano-texto {
+    font-size: 18px;
+}
+
+/* Quitar el subrayado a los enlaces de la etiqueta <a>  / Sombra para las opciones*/
+.texto-nosubrayado {
+    text-decoration: none;    
+}
+
+.texto-nosubrayado:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+/* Margen de separación para los parrafos */
+.margen-inf-p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los iconos de las redes sociales */
+.decoracion-icono {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.decoracion-icono:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+/* Estilos para el contenedor que esta dentro del Header */
+.contenedor-1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(0 0 0 / 90%), rgb(0 0 0 / 50%)), url(../assets/images/bg-header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* Estilos para el subcontenedor del Header */
+.sub-contenedor-1 {
+    background: linear-gradient(to bottom, rgba(88, 88, 88, 0), rgba(73, 73, 73, 0.5), rgba(73, 73, 73));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 0 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 420px;
+    border-radius: 30% 30% 10px 10px;    
+    
+}
+
+/* Estilos para la foto de perfil */
+.foto-perfil {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 10px var(--color-verdeclaro);
+    border-style: groove;
+    align-items: center;    
+}
+
+/* Estilo para el titulo H1 (German Bermudez) */
+.german-bermudez {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+/* Estilo para la profesion (Desarrollador de Software ...) */
+.desarrollador {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* Estilo de Ubicación para el contenedor de las redes sociales */
+.redes-sociales {
+    display: flex;    
+    gap: 20px;
+    font-size: 18px;
+    justify-content: center;
+}
+
+/* Clase para el nav Menu de navegación */
+.menu-navegacion {
+    display: flex;
+    
+}
+
+/* Estilos para el contenedor que esta dentro del NAV (Opciones del menu de navegación) */
+.contenedor-opciones {
+    margin-top: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.1); /* Borde blanco semitransparente */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(54, 51, 51, 0.6); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    border-radius: 10px; /* Borde redondeado */  
+}
+
+/* ______________________________________________________________________________________ */
+/* Inicio Seccion Contacto */
+/* Estilos Generales para las secciones despues del Nav  */
+
+#contacto,
+.info-contacto {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contacto {
+    margin: 15px;
+}
+
+.contenedor-contacto {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilo para el Icono inicial de la seccion contacto */
+.icono-contacto {
+    width: 100%;
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* Alineación para el contenedor de contacto */
+.descripcion-contacto {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cont-lista-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+label {
+    text-align: center;
+    margin: 10px;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    width: 50%;
+    height: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    width: 100px;
+    background-color: var(--color-verdeclaro);
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: #1f7464;
+}
