@@ -258,3 +258,552 @@ figcaption {
 .cheer:hover {
     transform: scale(1.1);
 }
+
+/* _______________________________________________________________________________________________________________ */
+/* Media Query para pantallas de 1400px */
+@media (max-width: 1400px) {
+
+    body {
+        margin: 10px 25px;
+    }
+
+    h2 {
+        font-size: 1.9em;
+    }
+
+    h3 {
+        font-size: 1.4em;
+    }
+
+    .contenedor-1 {
+        background-size: cover;
+        padding: 25px 15px;
+    }
+
+    .sub-contenedor-1 {
+        height: auto;
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    .foto-perfil {
+        width: 240px;
+        height: 240px;
+        border-width: 8px;
+    }
+
+    .german-bermudez {
+        font-size: 2.2em;
+        text-align: center;
+    }
+
+    .menu-navegacion {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contenedor-opciones {
+        gap: 50px;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    .redes-sociales {
+        gap: 18px;
+    }
+
+    .contenedor-info {
+        gap: 20px;
+    }
+
+    .cont1-informacion-basica,
+    .cont2-aspectos-profesionales,
+    .cont3-rasgos-personalidad,
+    .cont4-informacion-adicional {
+        gap: 15px;
+    }
+
+    .contenedor-fotos {
+        gap: 90px;
+        justify-content: center;
+    }
+    .cont-canciones,
+    .cont-peliculas {
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .futbol,
+    .cheer {
+        width: 400px;
+        box-shadow: 8px 8px 6px var(--color-sombra);
+        border-width: 8px;
+    }
+
+    #acercaDeMi,
+    .encontrar,
+    .informacion-basica,
+    .aspectos-profesionales,
+    .rasgos-personalidad,
+    .informacion-adicional {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .icono-info {
+        width: 45px;
+    }
+
+    .tamano-texto {
+        font-size: 17px;
+    }
+}
+
+/* _______________________________________________________________________________________________________________ */
+/* Media Query para pantallas de 1200px */
+@media (max-width: 1200px) {
+    
+    body {
+        margin: 10px 15px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .contenedor-1 {
+        background-size: cover;
+        padding: 20px 10px;
+    }
+
+    .sub-contenedor-1 {
+        height: auto;
+        padding: 20px 15px;
+        border-radius: 20px;
+    }
+
+    .foto-perfil {
+        width: 200px;
+        height: 200px;
+        border-width: 6px;
+    }
+
+    .german-bermudez {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .menu-navegacion,
+    .contenedor-opciones {
+        flex-direction: row;
+        gap: 40px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .contenedor-opciones {
+        align-items: center;
+    }
+
+    .redes-sociales {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .contenedor-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont1-informacion-basica,
+    .cont2-aspectos-profesionales,
+    .cont3-rasgos-personalidad,
+    .cont4-informacion-adicional {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .contenedor-fotos {
+        flex-direction: row;
+        gap: 60px;
+    }
+    .cont-canciones,
+    .cont-peliculas {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .futbol,
+    .cheer {
+        width: 90%;
+        max-width: 400px;
+        box-shadow: 5px 5px 10px var(--color-sombra);
+        border-width: 6px;
+    }
+
+    #acercaDeMi,
+    .encontrar,
+    .informacion-basica,
+    .aspectos-profesionales,
+    .rasgos-personalidad,
+    .informacion-adicional {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .icono-info {
+        width: 40px;
+    }
+
+    .tamano-texto {
+        font-size: 16px;
+    }
+}
+
+/* _______________________________________________________________________________________________________________ */
+/* Media Query para pantallas de 992px */
+@media (max-width: 992px) {
+
+    body {
+        margin: 10px 20px;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .contenedor-1 {
+        padding: 20px 10px;
+        background-size: cover;
+    }
+
+    .sub-contenedor-1 {
+        padding: 15px 10px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .foto-perfil {
+        width: 180px;
+        height: 180px;
+        border-width: 6px;
+    }
+
+    .german-bermudez {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .desarrollador {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .menu-navegacion,
+    .contenedor-opciones {
+        flex-direction: row;
+        gap: 30px;
+        height: auto;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .redes-sociales {
+        flex-wrap: wrap;
+        font-size: 16px;
+        gap: 15px;
+    }
+
+    .contenedor-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cont1-informacion-basica,
+    .cont2-aspectos-profesionales,
+    .cont3-rasgos-personalidad,
+    .cont4-informacion-adicional {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contenedor-fotos,
+    .cont-canciones,
+    .cont-peliculas {
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .futbol,
+    .cheer {
+        width: 100%;
+        max-width: 320px;
+        border-width: 5px;
+        box-shadow: 4px 4px 6px var(--color-sombra);
+    }
+
+    #acercaDeMi,
+    .encontrar,
+    .informacion-basica,
+    .aspectos-profesionales,
+    .rasgos-personalidad,
+    .informacion-adicional {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .icono-info {
+        width: 35px;
+    }
+
+    .tamano-texto {
+        font-size: 15px;
+    }
+}
+
+/* _______________________________________________________________________________________________________________ */
+/* Media Query para pantallas de 768px */
+@media (max-width: 768px) {
+
+    body {
+        margin: 5px 10px;
+    }
+
+    h2 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.1em;
+        text-align: center;
+    }
+
+    .contenedor-1 {
+        padding: 15px 5px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sub-contenedor-1 {
+        padding: 10px;
+        margin-bottom: 15px;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .foto-perfil {
+        width: 150px;
+        height: 150px;
+        border-width: 4px;
+    }
+
+    .german-bermudez {
+        font-size: 1.5em;
+    }
+
+    .desarrollador {
+        font-size: 0.95em;
+    }
+
+    .menu-navegacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-opciones {
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .redes-sociales {
+        flex-wrap: wrap;
+        font-size: 15px;
+        gap: 12px;
+    }
+
+    .contenedor-info {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .cont1-informacion-basica,
+    .cont2-aspectos-profesionales,
+    .cont3-rasgos-personalidad,
+    .cont4-informacion-adicional {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .contenedor-fotos,
+    .cont-canciones,
+    .cont-peliculas {
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .futbol,
+    .cheer {
+        width: 100%;
+        max-width: 280px;
+        border-width: 4px;
+        box-shadow: 3px 3px 5px var(--color-sombra);
+    }
+
+    #acercaDeMi,
+    .encontrar,
+    .informacion-basica,
+    .aspectos-profesionales,
+    .rasgos-personalidad,
+    .informacion-adicional {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .icono-info {
+        width: 30px;
+    }
+
+    .tamano-texto {
+        font-size: 14px;        
+    }
+
+    footer {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+}
+
+/* _______________________________________________________________________________________________________________ */
+/* Media Query para pantallas de 576px */
+@media (max-width: 576px) {
+
+    body {
+        margin: 5px;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .contenedor-1 {
+        padding: 10px 5px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sub-contenedor-1 {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .foto-perfil {
+        width: 130px;
+        height: 130px;
+        border-width: 3px;
+    }
+
+    .german-bermudez {
+        font-size: 1.4em;
+    }
+
+    .desarrollador {
+        font-size: 0.9em;
+    }
+
+    .menu-navegacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-opciones {
+        flex-direction: row;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .redes-sociales {
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .contenedor-info {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .cont1-informacion-basica,
+    .cont2-aspectos-profesionales,
+    .cont3-rasgos-personalidad,
+    .cont4-informacion-adicional {
+        flex-direction: row;
+        gap: 6px;
+    }
+
+    .contenedor-fotos,
+    .cont-canciones,
+    .cont-peliculas {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .futbol,
+    .cheer {
+        width: 100%;
+        max-width: 240px;
+        border-width: 3px;
+        box-shadow: 2px 2px 4px var(--color-sombra);
+    }
+
+    #acercaDeMi,
+    .encontrar,
+    .informacion-basica,
+    .aspectos-profesionales,
+    .rasgos-personalidad,
+    .informacion-adicional {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .icono-info {
+        width: 25px;
+    }
+
+    .tamano-texto {
+        font-size: 13px;        
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 13px;
+    }
+}
