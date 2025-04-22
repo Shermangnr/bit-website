@@ -20,5 +20,12 @@ Me gusta enfrentar nuevos desafíos y aprender algo nuevo con cada proyecto. Est
 
 
 # Autor
-_Germán Bermúdez_ (19/03/2025)
-<!-- Incluir enlaces de contacto -->
+_**Germán Bermúdez**_  
+📅 *19/03/2025*
+
+## Enlaces de contacto
+- 💼 [LinkedIn](https://www.linkedin.com/in/german-bermudez/)  
+- 🐙 [GitHub](https://github.com/Shermangnr)  
+- 📧 [Email](mailto:shermangnr@gmail.com)  
+- 🌐 [Portafolio Web](https://shermangnr.github.io/bit-website/)
+
